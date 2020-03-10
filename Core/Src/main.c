@@ -166,7 +166,7 @@ int main(void)
       {
         // Should we reset the SIM Module after 300 cycles?
         serialPrint("\nReset ?\r\n");
-        //TODO: Hack Find a way to cycle : // Won't fix, R1 board ahs an always ON GSM setup 
+        //TODO: Hack Find a way to cycle : // Won't fix, R1 board has an always ON GSM setup 
 
         sim_module_on_counter = 0;
         gsmModuleState = Off;
